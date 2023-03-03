@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.5.0",
+    "@strapi/plugin-i18n": "4.7.0",
+    "@strapi/plugin-seo": "^1.7.7",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/provider-email-sendgrid": "^4.6.0",
+    "@strapi/strapi": "4.7.0",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "Priyanka Das"
+  },
+  "strapi": {
+    "uuid": "a54eb17b-0a80-4258-a70a-c0fc2a0042ee"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
